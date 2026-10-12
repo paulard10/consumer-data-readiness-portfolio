@@ -1,0 +1,10 @@
+metric,current_rate,warning_threshold,critical_threshold,severity,current_rate_percent,warning_threshold_percent,critical_threshold_percent
+Missing Email,0.021773399014778327,0.02,0.05,WARNING,2.18,2.0,5.0
+Malformed Email,0.0064039408866995075,0.01,0.02,OK,0.64,1.0,2.0
+Duplicated-Flagged Records,0.029556650246305417,0.02,0.05,WARNING,2.96,2.0,5.0
+Missing Marketing Consent,0.04147783251231527,0.03,0.05,WARNING,4.15,3.0,5.0
+Invalid Marketing Activation,0.19763546798029558,0.02,0.05,CRITICAL,19.76,2.0,5.0
+Missing Audience Segment,0.03359605911330049,0.02,0.05,WARNING,3.36,2.0,5.0
+Stale Profiles,0.49586206896551727,0.1,0.2,CRITICAL,49.59,10.0,20.0
+Consent Conflicts,0.0018,0.001,0.005,WARNING,0.18,0.1,0.5
+Taxonomy Issues,0.00541871921182266,0.01,0.03,OK,0.54,1.0,3.0

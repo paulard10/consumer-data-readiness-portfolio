@@ -1,0 +1,13 @@
+metric,value
+Total Records,10150
+Unique Consumers,10000
+Missing Emails,221
+Malformed Emails,65
+Duplicated Records,150
+Duplicated-Flagged Records,300
+Missing Marketing Consent,421
+Invalid Marketing Activations,2006
+Missing Audience Segments,341
+Stale Profiles,5033
+Consumers with Consent Conflicts,18
+Taxonomy Issues,55

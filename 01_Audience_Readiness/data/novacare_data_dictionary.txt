@@ -1,0 +1,65 @@
+NOVACARE CONSUMER HEALTH — DATA DICTIONARY
+Synthetic training dataset. No real personal data is used.
+
+consumer_id
+    Internal consumer/profile identifier. Ideally unique.
+
+email
+    Consumer email address. Synthetic example.com addresses only.
+    Some values are intentionally blank or malformed.
+
+country
+    Consumer market/country.
+    Intentionally contains inconsistent formats such as Spain / ES / ESP.
+
+source_system
+    System where the record originated: Website, CRM, Mobile App or Retail Partner.
+
+product_interest
+    Product category the consumer has shown interest in.
+    Intentionally contains inconsistent naming/capitalization.
+
+lifecycle_stage
+    Consumer relationship stage: Prospect, New Customer, Active Customer, Lapsed Customer.
+    A small number of intentionally invalid values are included.
+
+marketing_consent
+    Whether marketing consent is recorded: YES / NO / blank.
+    Blank means consent status is unknown.
+
+analytics_consent
+    Whether analytics consent is recorded: YES / NO / blank.
+
+last_activity_date
+    Date of the consumer's most recent recorded activity.
+    Some profiles are intentionally stale.
+
+audience_segment
+    Marketing audience assigned to the profile.
+    Some values are intentionally missing.
+
+campaign_id
+    Campaign associated with the record, where available.
+
+activated_for_marketing
+    Whether the profile has been activated for marketing: YES / NO.
+    Some records are intentionally activated despite missing or negative marketing consent.
+
+profile_created_date
+    Date the profile was originally created.
+
+age_band
+    Broad age range used for aggregate marketing analysis.
+
+TRAINING OBJECTIVE
+Use SQL to profile the dataset and identify:
+1. Duplicate consumer IDs
+2. Missing / malformed emails
+3. Country naming inconsistencies
+4. Product taxonomy inconsistencies
+5. Invalid lifecycle stages
+6. Missing consent values
+7. Consumers activated without valid marketing consent
+8. Missing audience segments
+9. Stale profiles
+10. Overall data-readiness issues

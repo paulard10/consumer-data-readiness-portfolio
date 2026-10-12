@@ -1,0 +1,50 @@
+# ---------------------------------------------------------------
+# Portfolio deliverables (CSV, .xlsx, .db, .pbix, screenshots) are
+# intentionally NOT ignored: all data is synthetic and is part of
+# the showcase.
+# ---------------------------------------------------------------
+
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Environment / secrets
+.env
+.env.*
+
+# Office temporary lock files
+~$*
+
+# DB Browser for SQLite project files (contain local absolute paths)
+*.sqbpro
+
+# SQLite temporary / journal files
+*.db-journal
+*.db-wal
+*.db-shm
+
+# Power BI temporary / cache files
+*.pbix.bak
+.pbi/cache/
+.pbi/localSettings.json
+
+# Editors / IDEs
+.vscode/
+.idea/
+.cursor/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Claude / graphify local artifacts
+.claude/
+graphify-out/

@@ -1,0 +1,6 @@
+audience_id,audience_segment,audience_type,intent_level,taxonomy_status
+AUD001,High Intent,Intent,High,VALID
+AUD002,Retargeting,Behavioral,High,VALID
+AUD003,Existing Customer,Lifecycle,Medium,VALID
+AUD004,New Prospect,Acquisition,Medium,VALID
+AUD005,Category Interest,Interest,Low,VALID
